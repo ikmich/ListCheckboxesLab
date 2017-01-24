@@ -59,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Build up mock dummy data to be used to populate the ListView.
+     *
+     * @return
+     */
     public List<String> getData() {
         data = new LinkedList<>();
 
